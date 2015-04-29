@@ -1,3 +1,6 @@
-body > h1 {
+@font-face {
   font-family: Noto;
-}
+  src: url(NotoSansCJKsc-Light.otf);}
+
+body > h1 {
+  font-family: Noto;}
