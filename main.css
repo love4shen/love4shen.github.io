@@ -1,7 +1,7 @@
 @font-face {
-  font-family: Noto;
-  src: url(NotoSansCJKsc-Light.otf);}
+  font-family: PingHei;
+  src: url(PingHei-light.woff);}
 
 body > h1 {
-  font-family: Noto;
+  font-family: PingHei, 'Lucida Grande', 'Lucida Sans Unicode', STHeiti, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;}
