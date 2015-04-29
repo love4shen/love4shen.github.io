@@ -3,5 +3,5 @@
   src: url(PingHei-light.woff);}
 
 body > h1 {
-  font-family: PingHei, Helvetica, Arial, Verdana, sans-serif;
+  font: 20em PingHei, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;}
