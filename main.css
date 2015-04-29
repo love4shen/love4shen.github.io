@@ -1,13 +1,14 @@
 @font-face {
   font-family: PingHei;
   src: url(PingHei-light.woff);}
-body {
+body {/*
   margin: 0;
   background-attachment: fixed;
   background: -webkit-linear-gradient(#F44336, #B71C1C);
   background: -o-linear-gradient(#F44336, #B71C1C);
   background: -moz-linear-gradient(#F44336, #B71C1C);
-  background: linear-gradient(#F44336, #B71C1C);}
+  background: linear-gradient(#F44336, #B71C1C);*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cbccc8)) fixed;}
 body > h1 {
   font: 4rem PingHei, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;}
