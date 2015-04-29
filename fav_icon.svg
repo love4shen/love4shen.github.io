@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1200"
+   height="1200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="fav_icon.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="375"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,147.63782)">
+    <text
+       xml:space="preserve"
+       style="font-size:486.79727172999998000px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="157.32288"
+       y="707.33179"
+       id="text2993"
+       sodipodi:linespacing="125%"
+       transform="scale(0.95345318,1.0488192)"><tspan
+         sodipodi:role="line"
+         id="tspan2995"
+         x="157.32288"
+         y="707.33179"
+         style="font-size:759.30218505999994000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000">T<tspan
+   style="fill:#f44336;fill-opacity:1"
+   id="tspan3761">S</tspan></tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2997"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion2999"><rect
+           id="rect3001"
+           width="137.14285"
+           height="105.71429"
+           x="145.71428"
+           y="560" /></flowRegion><flowPara
+         id="flowPara3003" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3005"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3007"><rect
+           id="rect3009"
+           width="311.42856"
+           height="354.28571"
+           x="191.42857"
+           y="397.14285" /></flowRegion><flowPara
+         id="flowPara3011" /></flowRoot>    <path
+       sodipodi:type="arc"
+       id="path3013"
+       sodipodi:cx="594.28571"
+       sodipodi:cy="825.71429"
+       sodipodi:rx="488.57144"
+       sodipodi:ry="405.71429"
+       d="m 1082.8571,825.71429 c 0,224.06981 -218.74084,405.71431 -488.57139,405.71431 -269.83056,0 -488.57145,-181.6445 -488.57145,-405.71431 C 105.71426,601.64448 324.45515,420 594.28571,420 c 269.83055,0 488.57139,181.64448 488.57139,405.71429 z"
+       transform="matrix(1.2280701,0,0,0.49295774,-129.82453,210.19137)"
+       style="opacity:0.29999999999999999;fill:#ffffff" />
+  </g>
+</svg>
