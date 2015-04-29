@@ -3,4 +3,5 @@
   src: url(NotoSansCJKsc-Light.otf);}
 
 body > h1 {
-  font-family: Noto;}
+  font-family: Noto;
+  text-align: center;}
