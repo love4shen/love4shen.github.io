@@ -2,9 +2,9 @@
   font-family: PingHei;
   src: url(PingHei-light.woff);}
 html {
-  height: 100%;}
+  height: 120%;}
 body {
-  height: 100%;
+  height: 120%;
   margin: 0;
   background-repeat: no-repeat;
   background: -webkit-linear-gradient(#F44336, #B71C1C);
