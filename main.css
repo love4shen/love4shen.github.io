@@ -8,5 +8,5 @@ body {
   background: linear-gradient(#F44336, #B71C1C);
   background-attachment: fixed;}
 body > h1 {
-  font: 4rem PingHei, Helvetica, Arial, Verdana, sans-serif;
+  font: #000000 4rem PingHei, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;}
