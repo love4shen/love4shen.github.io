@@ -10,9 +10,3 @@ body {
 body > h1 {
   font: 4rem PingHei, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;}
-.music_player {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-
-}
