@@ -8,16 +8,20 @@ body {
   background: linear-gradient(#F44336, #D32F2F);
   background-attachment: fixed;}
 
-body > h1 {
-  font: 4rem PingHei, Helvetica, Arial, Verdana, sans-serif;
+h1, h2, p {
+  font-family: PingHei, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;}
 
-p {
-  font: 1rem PingHei, Helvetica, Arial, Verdana, sans-serif;}
+h1 {
+font-size: 4rem;}
 
+h2 {
+font-size: 2rem;}
+
+p {
+font-size: 1rem;}
 
 #vpn_tutorial {
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
 
