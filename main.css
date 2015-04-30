@@ -7,6 +7,14 @@ body {
   background: -moz-linear-gradient(#F44336, #D32F2F);
   background: linear-gradient(#F44336, #D32F2F);
   background-attachment: fixed;}
+
 body > h1 {
   font: 4rem PingHei, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;}
+
+#vpn_tutorial {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
