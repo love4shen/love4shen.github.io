@@ -12,6 +12,13 @@ body > h1 {
   font: 4rem PingHei, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;}
 
+p {
+
+  font: 2rem PingHei, Helvetica, Arial, Verdana, sans-serif;
+
+}
+
+
 #vpn_tutorial {
   text-align: center;
   margin-left: auto;
