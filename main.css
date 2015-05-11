@@ -2,10 +2,10 @@
   font-family: PingHei;
   src: url(PingHei-light.woff);}
 body {
-  background: -webkit-linear-gradient(#F44336, #EF9A9A);
-  background: -o-linear-gradient(#F44336, #EF9A9A);
-  background: -moz-linear-gradient(#F44336, #EF9A9A);
-  background: linear-gradient(#F44336, #EF9A9A);
+  background: -webkit-linear-gradient(#2196F3, #90CAF9);
+  background: -o-linear-gradient(#2196F3, #90CAF9);
+  background: -moz-linear-gradient(#2196F3, #90CAF9);
+  background: linear-gradient(#2196F3, #90CAF9);
   background-attachment: fixed;
   text-align: center;
   margin-left: auto;
@@ -17,7 +17,7 @@ h1, h2, h3, h4, p {
 
 h1 {
 font-size: 4rem;
-color: #7a0019;}
+color: #F44336;}
 
 h2 {
 font-size: 2rem;}
