@@ -11,7 +11,7 @@ body {
   margin-left: auto;
   margin-right: auto;}
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   font-family: PingHei, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;}
 
@@ -24,6 +24,9 @@ font-size: 2rem;}
 h3 {
 font-size: 1.5rem;}
 
+h4 {
+  font-size: 1.2rem;}
+  
 p {
 font-size: 1rem;}
 
