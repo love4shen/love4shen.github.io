@@ -16,7 +16,8 @@ h1, h2, h3, h4, p {
   text-align: center;}
 
 h1 {
-font-size: 4rem;}
+font-size: 4rem;
+font-color: #7a0019;}
 
 h2 {
 font-size: 2rem;}
@@ -26,7 +27,7 @@ font-size: 1.5rem;}
 
 h4 {
   font-size: 1.2rem;}
-  
+
 p {
 font-size: 1rem;}
 
