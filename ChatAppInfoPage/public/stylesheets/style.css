@@ -3,23 +3,34 @@
 }
 
 @media only screen and (orientation : landscape) {
+  #section_design__feature p {
+    float:left;
+    overflow:auto;
+    display:block;
+  }
 
+  #section_design__feature img {
+    float:right;
+    margin: 0 10px;
+    display: block;
+    height: 70vh;
+    width: auto;
+  }
 }
 
 @media only screen and (orientation : portrait) {
+  #section_design__feature p {
+    text-align: center;
+    overflow:auto;
+    display:block;
+  }
 
-}
-
-#section_design__feature p {
-  float:left;
-  overflow:auto;
-  display:block;
-}
-
-#section_design__feature img {
-  float:right;
-  margin: 0 10px;
-  display: block;
-  height: 70vh;
-  width: auto;
+  #section_design__feature img {
+    width: 40vw;
+    float:left;
+    margin: 0 10px;
+    display: block;
+    height: 70vh;
+    width: auto;
+  }
 }

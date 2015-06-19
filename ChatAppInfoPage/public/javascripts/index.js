@@ -1,11 +1,1 @@
-var windowHeight = $( window ).height();
-var imgNewHeight = windowHeight*0.7;
-var img = $( "#section_design__feature img" );
-var para = $( "#section_design__feature p" );
-var sdf = $( "#section_design__feature" );
-var imgOldHeight = img.height();
-var imgOldWidth = img.width();
-img.height(imgNewHeight);
-var imgNewWidth = imgOldWidth*imgNewHeight/imgOldHeight;
-img.width(imgNewWidth);
-para.width(para.width() - 2*imgNewWidth - 40);
+
