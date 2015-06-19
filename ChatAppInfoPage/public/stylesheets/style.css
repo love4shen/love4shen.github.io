@@ -24,14 +24,14 @@
   }
 
   #section_design__feature img {
-    float: right;
+    float: left;
     width: 40vw;
     height: auto;
     margin: 5px auto;
   }
 
   #section_design__feature img:first-child {
-    float: left;
+    float: right;
   }
 }
 
