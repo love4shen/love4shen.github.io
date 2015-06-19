@@ -24,6 +24,7 @@
   }
 
   #section_design__feature img {
+    float:left;
     width: 40vw;
     height: auto;
     margin: 5px auto;
