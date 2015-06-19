@@ -6,15 +6,14 @@
   #section_design__feature p {
     float:left;
     overflow:auto;
-    display:block;
   }
 
   #section_design__feature img {
     float:right;
     margin: 0 10px;
-    display: block;
     height: 70vh;
     width: auto;
+    clear: both;
   }
 }
 
