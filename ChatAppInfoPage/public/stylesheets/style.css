@@ -2,18 +2,20 @@
   display: inline-block;
 }
 
-#section_design__feature p {
-  float:left;
-  overflow:auto;
-  display:block;
-}
+@media only screen and (orientation: landscape) {
+  #section_design__feature p {
+    float:left;
+    overflow:auto;
+    display:block;
+  }
 
-#section_design__feature img {
-  float:right;
-  margin: 0 10px;
-  display: block;
-  height: 70vh;
-  width: auto;
+  #section_design__feature img {
+    float:right;
+    margin: 0 10px;
+    display: block;
+    height: 70vh;
+    width: auto;
+  }
 }
 
 @media only screen and (orientation : portrait) {
