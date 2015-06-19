@@ -34,8 +34,7 @@
   }
 }
 
-footer > img {
+#footerImg {
   width: 100vw;
   height: auto;
-  left: 0;
 }
