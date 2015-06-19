@@ -12,6 +12,8 @@
 
 #section_design__feature p {
   float:left;
+  overflow:auto;
+  display:block;
 }
 
 #section_design__feature img {
@@ -20,4 +22,5 @@
   display: block;
   height: 70vh;
   width: auto;
+  clear:both;
 }
