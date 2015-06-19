@@ -3,16 +3,15 @@
 }
 
 @media only screen and (orientation: landscape) {
-  #section_design__feature p {
-    overflow:auto;
-    float:left;
-  }
-
   #section_design__feature img {
     margin: 0 10px;
     height: 70vh;
     width: auto;
     float: right;
+  }
+  #section_design__feature p {
+    overflow:auto;
+    float:left;
   }
 }
 
