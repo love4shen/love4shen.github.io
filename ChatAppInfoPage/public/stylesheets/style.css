@@ -25,8 +25,7 @@
 
   #section_design__feature img {
     width: 40vw;
-    height: 70vh;
-    width: auto;
+    height: auto;
     margin: 5px auto;
   }
 }
