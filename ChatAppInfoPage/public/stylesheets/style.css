@@ -27,10 +27,15 @@
 
   #section_design__feature img {
     width: 40vw;
-    margin: 0 10px;
     display: block;
     height: 70vh;
     width: auto;
     margin: 5px auto;
   }
+}
+
+footer > img {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
 }
