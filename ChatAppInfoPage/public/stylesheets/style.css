@@ -1,0 +1,15 @@
+
+
+#section_design__feature > div {
+  display: inline-block;
+  
+}
+
+#section_design__feature p {
+  float:left;
+}
+
+#section_design__feature img {
+  float:right;
+  margin: 0 10px;
+}
