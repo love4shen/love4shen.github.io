@@ -1,1 +1,1 @@
-console.log(event.orientation)
+console.log(window.orientation);
