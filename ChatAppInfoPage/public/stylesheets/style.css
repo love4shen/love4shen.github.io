@@ -2,7 +2,13 @@
   display: inline-block;
 }
 
+@media only screen and (orientation : landscape) {
 
+}
+
+@media only screen and (orientation : portrait) {
+
+}
 
 #section_design__feature p {
   float:left;
@@ -11,4 +17,7 @@
 #section_design__feature img {
   float:right;
   margin: 0 10px;
+  display: block;
+  height: 70vh;
+  width: auto;
 }
