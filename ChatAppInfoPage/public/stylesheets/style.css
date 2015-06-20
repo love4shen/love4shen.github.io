@@ -1,29 +1,38 @@
-#section_design__feature > div {
-  display: inline-block;
+.jumbotron {
+  margin: 0;
+}
+
+#section_design__feature {
+  overflow: hidden;
+}
+
+section {
+  overflow: hidden;
+  margin: 20px auto;
 }
 
 #section_design__feature p {
-  text-align: center;
+  display: inline-block;
   overflow:auto;
   display:block;
   float:left;
 }
 
 #section_design__feature img {
-  float: right;
   margin: 0 10px;
   display: inline-block;
 }
 
-.imgset {
-  margin: 0 auto;
-}
 
 @media only screen and (orientation: landscape) {
-
   #section_design__feature img {
+    float: right;
     height: 70vh;
     width: auto;
+  }
+
+  .imgset {
+    float: left;
   }
 }
 
@@ -31,6 +40,11 @@
   #section_design__feature img {
     width: 40vw;
     height: auto;
+  }
+
+  .imgset {
+    text-align: center;
+    clear: both;
   }
 }
 
