@@ -9,27 +9,26 @@ section {
 }
 
 p {
-  text-align: center;
   font-size: 24px;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   color: #333;
 }
 
-#section_design__feature p {
+#features p {
   /*
   overflow:auto;
   display:block;*/
   float:left;
+  text-align: center;
 }
 
-#section_design__feature img {
+#features img {
   margin: 0 8px;
   display: inline-block;
 }
 
-
 @media only screen and (orientation: landscape) {
-  #section_design__feature img {
+  #features img {
     float: right;
     height: 70vh;
     width: auto;
@@ -38,10 +37,22 @@ p {
   .imgset {
     float: left;
   }
+
+  header h1, header h2 {
+    float: left;
+    width: 60%;
+  }
+
+  header button {
+    display: inline-block;
+    float: right;
+    width: 30%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (orientation : portrait) {
-  #section_design__feature img {
+  #features img {
     width: 40vw;
     height: auto;
   }
@@ -54,9 +65,14 @@ p {
     text-align: center;
     clear: both;
   }
+
+  header button {
+    width: 100%;
+  }
 }
 
 #footerImg {
   width: 100vw;
   height: auto;
+  margin-top: 20px;
 }
