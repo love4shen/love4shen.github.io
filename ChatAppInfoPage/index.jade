@@ -13,10 +13,12 @@ block vars
 block header
   header.jumbotron
     .container
-      h1= chatAppName
-      h2
-        small= chatAppSummary
-      button.btn.btn-primary.btn-lg Stay Connected
+      .col-xs-12.col-sm-6.col-md-8
+        h1= chatAppName
+        h2
+          small= chatAppSummary
+      .col-xs-6.col-md-4  
+        button.btn.btn-primary.btn-lg Stay Connected
 
 block intro
   .container
