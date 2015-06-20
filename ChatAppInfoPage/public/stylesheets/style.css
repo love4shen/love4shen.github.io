@@ -16,9 +16,9 @@ p {
 }
 
 #section_design__feature p {
-  display: inline-block;
+  /*
   overflow:auto;
-  display:block;
+  display:block;*/
   float:left;
 }
 
