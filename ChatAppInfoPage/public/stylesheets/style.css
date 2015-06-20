@@ -15,7 +15,7 @@ section {
 }
 
 #section_design__feature img {
-  margin: 0 10px;
+  margin: 0 8px;
   display: inline-block;
 }
 
@@ -34,7 +34,7 @@ section {
 
 @media only screen and (orientation : portrait) {
   #section_design__feature img {
-    width: 40vw;
+    width: 36vw;
     height: auto;
   }
 
