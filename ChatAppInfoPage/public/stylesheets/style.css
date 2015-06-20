@@ -9,7 +9,7 @@
 #section_design__feature p {
   overflow:auto;
   display:inline-block;
-  
+  float:left;
 }
 
 p {
