@@ -8,21 +8,21 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-#section_design__feature p {
+#features p {
   display: inline-block;
   overflow:auto;
   display:block;
   float:left;
 }
 
-#section_design__feature img {
+#features img {
   margin: 0 8px;
   display: inline-block;
 }
 
 
 @media only screen and (orientation: landscape) {
-  #section_design__feature img {
+  #features img {
     float: right;
     height: 70vh;
     width: auto;
@@ -34,7 +34,7 @@ section {
 }
 
 @media only screen and (orientation : portrait) {
-  #section_design__feature img {
+  #features img {
     width: 40vw;
     height: auto;
   }
