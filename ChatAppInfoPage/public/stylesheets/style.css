@@ -46,6 +46,10 @@ p {
     height: auto;
   }
 
+  p {
+    font-size: 16px;
+  }
+
   .imgset {
     text-align: center;
     clear: both;
