@@ -39,6 +39,7 @@ section {
 
   .imgset {
     float: left;
+
   }
 }
 
@@ -51,6 +52,7 @@ section {
   .imgset {
     margin: 0 auto;
     overflow: hidden;
+    clear: both;
   }
 }
 
