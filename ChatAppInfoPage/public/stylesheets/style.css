@@ -8,6 +8,13 @@ section {
   border-bottom: 1px solid #eee;
 }
 
+p {
+  text-align: center;
+  font-size: 24px;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  color: #333;
+}
+
 #section_design__feature p {
   display: inline-block;
   overflow:auto;
