@@ -2,36 +2,35 @@
   display: inline-block;
 }
 
+#section_design__feature p {
+  text-align: center;
+  overflow:auto;
+  display:block;
+  float:left;
+}
+
+#section_design__feature img {
+  float: right;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.imgset {
+  float: right;
+}
+
 @media only screen and (orientation: landscape) {
-  #section_design__feature p {
-    overflow:auto;
-    float:left;
-  }
 
   #section_design__feature img {
-    margin: 0 10px;
     height: 70vh;
     width: auto;
-    float: right;
   }
 }
 
 @media only screen and (orientation : portrait) {
-  #section_design__feature p {
-    text-align: center;
-    overflow:auto;
-    display:block;
-  }
-
   #section_design__feature img {
-    float: left;
     width: 40vw;
     height: auto;
-    margin: 5px auto;
-  }
-
-  #section_design__feature img:first-child {
-    float: right;
   }
 }
 
