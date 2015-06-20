@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+p {
+  font: 24px 'Myriad Set Pro', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  color: #eee;
+}
+
 section {
   overflow: hidden;
   margin: 20px auto;
