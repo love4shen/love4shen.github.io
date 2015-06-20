@@ -2,30 +2,37 @@
   margin: 0;
 }
 
+#section_design__feature > div {
+  display: inline-block;
+}
 
+#section_design__feature p {
+  overflow:auto;
+  display:inline-block;
+  
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  color: #333;
+}
 
 section {
-  overflow: hidden;
   margin: 20px auto;
+  overflow: hidden;
   border-bottom: 1px solid #eee;
 }
 
-#features p {
-  display: inline-block;
-  overflow:auto;
-  display:block;
-  float:left;
-}
-
-#features img {
-  margin: 0 8px;
+#section_design__feature img {
+  float: right;
+  margin: 0 10px;
   display: inline-block;
 }
-
 
 @media only screen and (orientation: landscape) {
-  #features img {
-    float: right;
+  #section_design__feature img {
     height: 70vh;
     width: auto;
   }
@@ -36,14 +43,14 @@ section {
 }
 
 @media only screen and (orientation : portrait) {
-  #features img {
+  #section_design__feature img {
     width: 40vw;
     height: auto;
   }
 
   .imgset {
-    text-align: center;
-    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
   }
 }
 
