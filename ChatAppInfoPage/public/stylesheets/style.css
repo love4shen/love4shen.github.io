@@ -16,7 +16,7 @@
 }
 
 .imgset {
-  float: right;
+  margin: 0 auto;
 }
 
 @media only screen and (orientation: landscape) {
