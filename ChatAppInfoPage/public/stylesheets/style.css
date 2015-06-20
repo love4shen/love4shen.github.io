@@ -34,7 +34,7 @@ section {
 
 @media only screen and (orientation : portrait) {
   #section_design__feature img {
-    width: 36vw;
+    width: 40vw;
     height: auto;
   }
 
