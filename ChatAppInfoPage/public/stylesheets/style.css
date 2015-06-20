@@ -5,6 +5,7 @@
 section {
   overflow: hidden;
   margin: 20px auto;
+  border-bottom: 1px solid black;
 }
 
 #section_design__feature p {
