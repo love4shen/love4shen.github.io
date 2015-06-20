@@ -2,44 +2,34 @@
   margin: 0;
 }
 
-#section_design__feature > div {
-  display: inline-block;
-}
-
-#section_design__feature p {
-  overflow:auto;
-  display:inline-block;
-  float:left;
-}
-
-p {
-  text-align: center;
-  font-size: 24px;
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-  color: #333;
-}
-
 section {
-  margin: 20px auto;
   overflow: hidden;
+  margin: 20px auto;
   border-bottom: 1px solid #eee;
 }
 
+#section_design__feature p {
+  display: inline-block;
+  overflow:auto;
+  display:block;
+  float:left;
+}
+
 #section_design__feature img {
-  float: right;
-  margin: 0 10px;
+  margin: 0 8px;
   display: inline-block;
 }
 
+
 @media only screen and (orientation: landscape) {
   #section_design__feature img {
+    float: right;
     height: 70vh;
     width: auto;
   }
 
   .imgset {
     float: left;
-
   }
 }
 
@@ -50,8 +40,7 @@ section {
   }
 
   .imgset {
-    margin: 0 auto;
-    overflow: hidden;
+    text-align: center;
     clear: both;
   }
 }
