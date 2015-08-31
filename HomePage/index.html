@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MIN(Yizheng SHEN)</title>
+  <title>SHEN</title>
   <meta charset="utf-8">
   <meta name="author" content="Yizheng Shen">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
   <!--<link rel="icon" href="fav.jpg" type="image/jpg" sizes="152x152">-->
 </head>
 <body>
-  <header>
+  <header id="header">
     <h2>Yizheng Shen</h2>
-    <h3>Minimalist Web Developer</h3>
+    <h3><span id="minimalToggle">Minimalist</span> Web Developer</h3>
   </header>
   <main>
     <section>
@@ -35,5 +36,10 @@
       <a href="mailto:dingx292@umn.edu">Email</a>
     </h6>
   </footer>
+  <script>
+    document.getElementById('minimalToggle').addEventListener('click', function(){
+      document.getElementById("header").style.backgroundImage = '-webkit-linear-gradient(left bottom, rgba(200, 156, 208, 0) 0%, rgb(200, 156, 208) 100%), -webkit-linear-gradient(left top, rgba(232, 201, 234, 0) 0%, rgb(232, 201, 234) 100%), -webkit-linear-gradient(right top, rgba(75, 49, 67, 0) 0%, rgb(75, 49, 67) 100%), -webkit-linear-gradient(right bottom, rgba(104, 60, 149, 0) 0%, rgb(104, 60, 149) 100%)';
+    });
+  </script>
 </body>
 </html>
