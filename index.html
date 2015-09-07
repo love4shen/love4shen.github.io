@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
+  <link rel="stylesheet" href="public/stylesheets/style.css">
   <!--<link rel="icon" href="fav.jpg" type="image/jpg" sizes="152x152">-->
 </head>
 <body>
@@ -17,11 +17,15 @@
   </header>
   <main>
     <section>
-      <header><a href="">Chatty</a></header>
+      <header><a href="http://umn-course-select.herokuapp.com">UMN Course Search App</a></header>
+      <p>Inspired by UMN Codefest 2015, the course search app built with Electron by the course api team, I built my own. Currently it's down due to API problems. :(</p>
+    </section>
+    <section>
+      <header><a href="http://tinir-chatty.herokuapp.com">Chatty</a></header>
       <p>Web chat app which allows only 2 persons. Built on top of nodejs, used express to handle http request, jade as template engine, socket.io to handle communication, passport to handle authentication, mongoDB to handle user information storing.</p>
     </section>
     <section>
-      <header><a href="http://arizona-umh.cs.umn.edu/FakeWaterDynamicsMapping/">Water Dynamic Mapping</a></header>
+      <header><a href="http://arizona-umh.cs.umn.edu/WaterMonitor/">Water Dynamic Mapping</a></header>
       <p>Responsive. Set up a solid backend server with Tomcat 7, PostgreSQl/PostGIS and GeoServer. Based on Robert Leuenberger's front end work, reconstructed the page design, added reponsivibility, greatly optimized polygon loading speed (compared to <a href="http://arizona-umh.cs.umn.edu/WaterDynamicsMapping/">original version</a> built by Robert Leuenberger with some new functionality added by me), visulized data with d3.js.</p>
     </section>
     <section>
@@ -36,10 +40,6 @@
       <a href="mailto:dingx292@umn.edu">Email</a>
     </h6>
   </footer>
-  <script>
-    document.getElementById('minimalToggle').addEventListener('click', function(){
-      document.getElementById("header").style.backgroundImage = '-webkit-linear-gradient(left bottom, rgba(200, 156, 208, 0) 0%, rgb(200, 156, 208) 100%), -webkit-linear-gradient(left top, rgba(232, 201, 234, 0) 0%, rgb(232, 201, 234) 100%), -webkit-linear-gradient(right top, rgba(75, 49, 67, 0) 0%, rgb(75, 49, 67) 100%), -webkit-linear-gradient(right bottom, rgba(104, 60, 149, 0) 0%, rgb(104, 60, 149) 100%)';
-    });
-  </script>
+  <script src="public/scripts/main.js"></script>
 </body>
 </html>
