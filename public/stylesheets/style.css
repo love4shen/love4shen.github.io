@@ -1,52 +1,56 @@
-@media only screen and (max-width: 414px) {
-  h1 {font-size: 4rem; }
-  h2 { font-size: 2rem; }
-  h3 { font-size: 1.25rem; }
-  h4 { font-size: 1rem; }
-  h5, h6 { font-size: .85rem; }
+html {
+  font-size:62.5%;
 }
 
-@media only screen and (min-width: 415px) and (max-width: 768px) {
-  h1 { font-size: 5rem; }
-  h2 { font-size: 2.5rem; }
-  h3 { font-size: 1.25rem; }
-  h4 { font-size: 1rem; }
-  h5, h6 { font-size: .85rem; }
+h1 {
+  font-size: 6.4rem;
 }
 
-@media only screen and (min-width: 769px)  {
-  h1 { font-size: 5rem; }
-  h2 { font-size: 2.5rem; }
-  h3 { font-size: 1.5rem; }
-  h4 { font-size: 1.25rem; }
-  h5, h6 { font-size: 1rem;}
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5, h6 {
+  font-size: 1.36rem;
 }
 
 a {
   text-decoration: none;
-  color: #eee;
-  border-bottom: 1px solid #ccc;
+  color: #333;
+  border-bottom: 0.1rem solid #ccc;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 2rem;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font: 100 18px "Lato", Helvetica, Arial, sans-serif;
-  background-color: #333;
-  color: #eee;
+  font: 100 1.8rem "Lato", Helvetica, Arial, sans-serif;
+  color: #333;
   height: 100vh;
 }
 
 body > * {
-  padding: 20px 40px;
+  padding: 2rem 4rem;
 }
 
 body > header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
 }
 
 body > footer {
-  border-top: 1px solid #ccc;
+  border-top: 0.1rem solid #ccc;
 }
 
 footer > * {
