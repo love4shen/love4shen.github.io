@@ -9,3 +9,4 @@ ehthumbs.db
 Thumbs.db
 *.swp
 npm-debug.log
+.sass-cache
