@@ -25,7 +25,7 @@
     <h1>It's all about <a href="http://a3.mzstatic.com/jp/r30/Purple5/v4/eb/8d/d0/eb8dd0b8-4d84-fc5c-2f79-fc6b75d7f426/screen322x572.jpeg"><span class="majesticllama">majestic llama</span></a></h1><!-- link to a drew image -->
   </header>
   <main>
-    <section class="about">
+    <section id="about">
       <h2>About</h2>
       <p><span class="majesticllama">majestic llama</span> is a XSS firewall API powered by Llama Power. While originated in North America about 40 million years ago (version 0.0.1), <span class="majesticllama">majestic llama</span> change its developping environment to South America about 3 million years ago (version 1.0.0) due to better network coverage.</p>
       <p><span class="majesticllama">majestic llama</span> has been downloaded for over 158,000 times in United States and Canada</p>
@@ -33,7 +33,7 @@
       <p>Beta Version: 5.1.2328</p>
       <p>Trusted by <a href="http://www.zappos.com">Zappos</a></p>
     </section>
-    <section class="features">
+    <section id="features">
       <h2>Features</h2>
       <ul>
         <li>
@@ -50,7 +50,7 @@
         <div>With its built-in technology called "lex talionis" initially introduced in v3.2.8, <span class="majesticllama">majestic llama</span> can attack back automatically after it successfully preventing one XSS attack</div>
       </ul>
     </section>
-    <section class="api">
+    <section id="api">
       <h2>API</h2>
       <dl>
         <dt><code>mllama.machine()</code></dt>
@@ -138,7 +138,7 @@
         <dd>Hidden command. Unknown results</dd>
       </dl>
     </section>
-    <section class="pricing">
+    <section id="pricing">
       <h2>Pricing</h2>
       <table>
         <tbody>
@@ -179,7 +179,7 @@
         </tbody>
       </table>
     </section>
-    <section class="examples">
+    <section id="examples">
       <h2>Examples</h2>
       <pre><code><span class="comments">// Instantiate an mllama instance (auto start)</span>
 <span class="varKwd">var</span> mllama = <span class="reqKwd">require</span>('mllama');
@@ -188,9 +188,10 @@
 
 <span class="comments">// Obtain sudo permission to force attack attacker's machine</span>
 firewall.<span class="funcKwd">sudo()</span>;
-firewall.force()<span class="funcKwd">.attack(</span>attacker<span class="funcKwd">)</span>;</code></pre>
+firewall.force()<span class="funcKwd">
+  .attack(</span>attacker<span class="funcKwd">)</span>;</code></pre>
       </section>
-      <section class="faq">
+      <section id="faq">
         <h2>FAQ</h2>
         <div>
           <div>
