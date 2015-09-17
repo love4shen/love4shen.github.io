@@ -41,7 +41,7 @@ body {
 }
 
 body > header, body > main, body > footer {
-  padding: 2rem 4rem;
+  padding: 0 1rem;
 }
 
 body > header {
