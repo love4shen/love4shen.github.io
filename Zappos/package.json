@@ -1,0 +1,13 @@
+{
+  "name": "mllama",
+    "version": "1.1.0",
+    "description": "^_^",
+    "author": {
+      "name": "Yizheng Ding"
+    },
+    "readme": "ERROR: No README data found!",
+    "_id": "mllama@1.0.0",
+    "scripts": {},
+    "_shasum": "3ec8ad9910a780351e5ea12f023ffdb5a1b8603a",
+    "_from": "mllama@*"
+}

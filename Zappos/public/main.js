@@ -32,19 +32,7 @@ for (var i in navLinks) {
 }
 
 console.log('%c Happy to see you here!', 'background-color: #ffcc33; color: #7a0019; font-weight: bold; font-size: 2rem;');
-console.log('I\'ve been always hated the hamburger menu, I want to create a new way of navigation')
-console.log('Navigation on Apple\'s homepage is creative and beautiful, but still not the way I want')
-console.log('Github Universe\' navigation inspired me in some way')
-console.log('And there is somthing in the webpage I got')
-console.log('No multiple tabs, ALL inforamtion on one page in order')
-console.log('Scroll up fast enough to unveil the navigation menu and scroll down to hide it again')
-console.log('This may (is) not the best way of naviagtion')
 console.log('');
-console.log('I personally prefer no image, no icon, using text whenever I can.')
-console.log('I can use a lot of pictures, fancy fonts to attract people\' eyes, but that is just not my way of building a site, an web app.')
-console.log('I try to convey the most important thing for user who can use minimal amount of time to get the information they just need')
-console.log('Easy is beautiful, do you agree?')
-console.log('If you do not agree, but if I am lucky enough that you have ever liked the site, even just half a sec, will you consider hire me?')
-console.log('Thanks for giving me such an opportunity to express my own ideas by making up all of these')
+console.log('Scroll up fast enough to unveil the navigation menu and scroll down to hide it again');
 console.log('');
-console.log('[.__.]')
+console.log('[.__.]');
