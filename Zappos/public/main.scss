@@ -232,7 +232,7 @@ pre {
     display: table-cell;
   }
 
-  footer span:nth-child(2) {
+  body > footer span:nth-child(2) {
     display: block;
     float: right;
   }
