@@ -7,18 +7,17 @@ window.onscroll = function () {
   var currentPos = window.scrollY;
   if (lastPos !== null) {
     var delta = currentPos - lastPos;
-    body.className = body.className.replace(/\bdisplayMenu\b/,'');
     if (delta < -50 && !display) {
+      body.className = body.className.replace(/\bdisplayMenu\b/,'');
       body.className += 'displayMenu';
       display = true;
     } else if (delta > 10 && display) {
+      body.className = body.className.replace(/\bdisplayMenu\b/,'');
       display = false;
     }
   }
   lastPos = currentPos;
-  if (timer) {
-    clearTimeout(timer);
-  }
+  timer && clearTimeout(timer);
   timer = setTimeout(function () {
     lastPos = null;
   }, 100);
