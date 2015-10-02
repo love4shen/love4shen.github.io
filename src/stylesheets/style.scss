@@ -56,3 +56,14 @@ body > footer {
 footer > * {
   margin: 1rem 0;
 }
+
+blockquote {
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 0.3rem solid #ccc;
+}
+
+blockquote, blockquote a {
+  color: #ccc;
+  font-size: 1.6rem;
+}
