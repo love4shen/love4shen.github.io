@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Tracking System</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.red-blue.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<style>
+.mdl-layout__tab > .material-icons {
+  vertical-align: middle;
+}
+
+@media only screen and (max-width : 640px) {
+  .mdl-layout--medium-n-large-screen-only {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 500px) {
+  .mdl-layout--small-n-medium-screen-only {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 375px) {
+  .mdl-layout--small-n-large-screen-only {
+    display: none;
+  }
+  .mdl-navigation.mdl-layout__tab-bar {
+    padding-left: 0;
+    transition: .5s;
+  }
+}
+
+footer.mdl-mini-footer {
+  padding-top: initial;
+  padding-bottom: initial;
+}
+
+.mdl-layout--fixed-header>header.mdl-layout__header, main.mdl-layout__content, footer.mdl-mini-footer {
+  display: none;
+}
+
+/*.is-compact .mdl-layout__header-row {
+display: none;
+}*/
+
+</style>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">Student Tracking System<small class="mdl-color-text--grey-100 mdl-layout--large-screen-only"> Carlson School of Management</small></span>
+      <div class="mdl-layout-spacer"></div>
+      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent mdl-color-text--grey-50 mdl-layout--small-n-medium-screen-only">Browse Records</button>
+      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-layout--small-n-large-screen-only" id="hdrbtn">
+        <i class="material-icons">more_vert</i>
+      </button>
+      <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+        <li class="mdl-menu__item">General Help</li>
+        <li class="mdl-menu__item">Instructions</li>
+        <li class="mdl-menu__item">Additional Help</li>
+      </ul>
+    </div>
+    <nav class="mdl-navigation mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a class="mdl-layout__tab" href=""><span class="material-icons">person</span><span class="mdl-layout--medium-n-large-screen-only"> Records</span></a>
+      <a class="mdl-layout__tab" href=""><span class="material-icons">group</span><span class="mdl-layout--medium-n-large-screen-only"> Groups</span></a>
+      <a class="mdl-layout__tab" href=""><span class="material-icons">mail</span><span class="mdl-layout--medium-n-large-screen-only"> Mail</span></a>
+      <a class="mdl-layout__tab" href=""><span class="material-icons">inbox</span><span class="mdl-layout--medium-n-large-screen-only"> Review</span></a>
+      <a class="mdl-layout__tab" href=""><span class="material-icons">widgets</span><span class="mdl-layout--medium-n-large-screen-only"> Utility</span></a>
+    </nav>
+  </header>
+  <div class="mdl-layout__drawer mdl-color--blue-500 mdl-color-text--grey-50">
+    <header class="demo-drawer-header">
+      <img src="images/user.jpg" class="demo-avatar">
+      <div class="demo-avatar-dropdown">
+        <span>Mr. Shen</span>
+        <div class="mdl-layout-spacer"></div>
+        <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+          <i class="material-icons" role="presentation">arrow_drop_down</i>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="accbtn">
+          <li class="mdl-menu__item">Logout</li>
+        </ul>
+      </div>
+    </header>
+    <nav class="demo-navigation mdl-navigation mdl-color--blue-500">
+      <a class="mdl-navigation__link" href=""><i class="material-icons" role="presentation">home</i>Home</a>
+      <a class="mdl-navigation__link mdl-color-text--grey-50" href=""><i class="material-icons" role="presentation">inbox</i>Inbox</a>
+      <a class="mdl-navigation__link mdl-color-text--grey-50" href=""><i class="material-icons" role="presentation">delete</i>Trash</a>
+      <a class="mdl-navigation__link mdl-color-text--grey-50" href=""><i class="material-icons" role="presentation">report</i>Spam</a>
+      <a class="mdl-navigation__link mdl-color-text--grey-50" href=""><i class="material-icons" role="presentation">forum</i>Forums</a>
+      <a class="mdl-navigation__link mdl-color-text--grey-50" href=""><i class="material-icons" role="presentation">flag</i>Updates</a>
+      <a class="mdl-navigation__link mdl-color-text--grey-50" href=""><i class="material-icons" role="presentation">local_offer</i>Promos</a>
+      <a class="mdl-navigation__link mdl-color-text--grey-50" href=""><i class="material-icons" role="presentation">shopping_cart</i>Purchases</a>
+      <a class="mdl-navigation__link mdl-color-text--grey-50" href=""><i class="material-icons" role="presentation">people</i>Social</a>
+      <div class="mdl-layout-spacer"></div>
+      <a class="mdl-navigation__link mdl-color-text--grey-50" href=""><i class="material-icons" role="presentation">arrow_forward</i>Logout</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content mdl-color--grey-100">
+    <div class="mdl-grid">
+      <div class="page-content mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+        <h4>The Student Tracking System is the one source for all prospective student contact, marketing campaigns, program applications, and current student demographics.</h4>
+      </div>
+      <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid" id="visualData_1"></div>
+      <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid" id="visualData_2"></div>
+    </div>
+  </main>
+  <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">Copyright © 2002-2015 - Carlson School of Management</div>
+    </div>
+  </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+
+$('header').fadeIn(500,function() {
+    $('main').fadeIn(1000,function() {
+       $('footer').fadeIn(1000);
+    });
+});
+
+</script>
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.1/d3.min.js"></script>
+<script src="sankey.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
