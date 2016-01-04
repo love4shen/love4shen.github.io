@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="dist/style.min.css">
-  <!--<link rel="icon" href="fav.jpg" type="image/jpg" sizes="152x152">-->
 </head>
 <body>
   <header id="header">
@@ -98,6 +97,41 @@
     </h6>
   </footer>
   <script src="dist/tinirlove.github.io.min.js"></script>
+  <script>
+
+  var touch = undefined;
+
+  function onTouch(e) {
+    e.preventDefault();
+    touch = e.touches[0];
+    touch3DChange(touch.force);
+  }
+
+  function onTouchEnd(e) {
+    e.preventDefault();
+    touch = undefined;
+  }
+
+  function checkMacForce(e) {
+    touch3DChange(e.webkitForce/3);
+  }
+
+  function touch3DChange(force) {
+    console.log(force);
+    document.body.style.fontSize = (180 + force*180) + '%';
+  }
+
+
+  (function() {
+    document.body.addEventListener('touchstart', onTouch, false);
+    document.body.addEventListener('touchmove', onTouch, false);
+    document.body.addEventListener('touchend', onTouchEnd, false);
+    document.body.addEventListener('webkitmouseforcewillbegin', checkMacForce, false);
+    document.body.addEventListener('webkitmouseforcechanged', checkMacForce, false);
+  })();
+
+
+  </script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

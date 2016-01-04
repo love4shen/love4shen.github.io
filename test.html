@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>RequireJS JSON plugin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="wrapper">
+  </div>
+  <script src="src/js/require.min.js"></script>
+  <script>
+  require.config({
+    paths: {
+      text: 'src/js/text.min', //text is required
+      json: 'src/js/json' //alias to plugin
+    }
+  });
+
+  // adding the flag `!bust` to the end of dependency name will avoid caching
+  require(['json!src/data/main.json!bust'], function(data){
+    var out = document.getElementById('wrapper');
+    out.innerHTML += '<pre>' + JSON.stringify(data, null, 4) +'<\/pre>';
+  });
+  </script>
+</body>
+</html>
