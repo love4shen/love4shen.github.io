@@ -1,145 +1,24 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>SHEN</title>
-  <meta charset="utf-8">
-  <meta name="author" content="Yizheng Shen">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="dist/style.min.css">
-</head>
-<body>
-  <header id="header">
-    <h2>Yizheng Ding</h2>
-    <h3>Only Those I Love Rest Here</h3>
-  </header>
-  <main>
-    <section>
-      <header><h4>Animes</h4></header>
-      <ul>
-        <li>Clannad</li>
-        <li>Clannad: After Story</li>
-        <li>Anohana: The Flower We Saw That Day | あの日見た花の名前を僕達はまだ知らない</li>
-        <li>Steins;Gate
-          <blockquote>Tutturuu~</blockquote>
-        </li>
-        <li>A Certain Magical Index | とある魔術の禁書目録
-          <blockquote>Strongly recommend: <a href="https://www.youtube.com/watch?v=lqzuh2uCWMw">とある一方さんの背徳の後</a></blockquote>
-        </li>
-        <li>A Certain Scientific Railgun | とある科学の超電磁砲</li>
-        <li>Air
-          <blockquote>Tori no Uta | 鳥の詩</blockquote>
-        </li>
-        <li>Guilty Crown | ギルティクラウン</li>
-        <li>Tokyo Ravens | 东京レイヴンズ</li>
-        <li>Neon Genesis Evangelion | 新世紀エヴァンゲリオン</li>
-        <li>Magic Kaito | まじっく快斗</li>
-      </ul>
-    </section>
-    <hr>
-    <section>
-      <header><h4>Novels</h4></header>
-      <ul>
-        <li>Jiushen | 阴阳冕(酒神)</li>
-      </ul>
-    </section>
-    <hr>
-    <section>
-      <header><h4>Projects</h4></header>
-      <section>
-        <header><a href="http://umn-course-select.herokuapp.com">UMN Course Search App</a></header>
-        <ul>
-          <li>node.js | Express | courses.umn.edu</li>
-          <li>Inspired by the course search app built with React by the course api team on UMN Codefest 2015.
-            <li><del>Currently it's down due to API problems. :(</del></li>
-            <li><del>It's back!</del></li>
-            <li>Down again -_-!</li>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <header><a href="http://tinir-chatty.herokuapp.com">Chatty</a></header>
-        <ul>
-          <li>node.js | Express | MongoDB | socket.io | Jade | passport</li>
-          <li>Web chat app which allows only 2 persons</li>
-          <li>Not responsive yet</li>
-        </ul>
-      </section>
-      <section>
-        <header><a href="http://arizona-umh.cs.umn.edu/WaterMonitor/">Water Dynamic Mapping</a></header>
-        <ul>
-          <li>d3.js | PostgreSQL/PostGIS | openlayers 3 | jQuery | Geoserver</li>
-          <li>Based on Robert Leuenberger's front end work, reconstructed the page design, added reponsivibility, greatly optimized polygon loading speed (compared to <a href="http://arizona-umh.cs.umn.edu/WaterDynamicsMapping/">original version</a> built by Robert Leuenberger with some new functionality added by me)
-          </li>
-        </ul>
-      </section>
-      <section>
-        <header><a href="http://resilience.umn.edu">Resilience Convergence</a></header>
-        <ul>
-          <li>
-            jQuery
-          </li>
-          <li>
-            Non-responsive. First time to build a site from scatch, coded everything except 'Topic Map' part according to PSD file designed by a Professor from College of Design, Unversity of Minnesota Twin Cities. Done within 2 weeks while doing other 3 jobs as a full-time student.
-          </li>
-        </ul>
-      </section>
-    </section>
-    <!-- <hr>
-    <section>And I Miss You...</section> -->
-  </main>
-  <footer>
-    <h6>v0.1.3 Made with C2</h6>
-    <h6>
-      <a href="https://github.com/tinirlove">GitHub</a>
-      <a href="mailto:dingx292@umn.edu">Email</a>
-    </h6>
-  </footer>
-  <script src="dist/tinirlove.github.io.min.js"></script>
-  <script>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Yizheng Ding | C2 JS</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
+    <link href="dist/style.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--
+    FITST, HAPPY TO SEE YOU HERE!
 
-  var touch = undefined;
+    SECOND, STOP! CLOSE THE INSPECTOR! SOURCE CODE'S UGLY!
 
-  function onTouch(e) {
-    e.preventDefault();
-    touch = e.touches[0];
-    touch3DChange(touch.force);
-  }
+    THIRD, WISH YOU A GREAT DAY WITH EVER EVOLVING WEB TECHNOLOGY!
 
-  function onTouchEnd(e) {
-    e.preventDefault();
-    touch = undefined;
-  }
-
-  function checkMacForce(e) {
-    touch3DChange(e.webkitForce/3);
-  }
-
-  function touch3DChange(force) {
-    console.log(force);
-    document.body.style.fontSize = (180 + force*180) + '%';
-  }
-
-
-  (function() {
-    document.body.addEventListener('touchstart', onTouch, false);
-    document.body.addEventListener('touchmove', onTouch, false);
-    document.body.addEventListener('touchend', onTouchEnd, false);
-    document.body.addEventListener('webkitmouseforcewillbegin', checkMacForce, false);
-    document.body.addEventListener('webkitmouseforcechanged', checkMacForce, false);
-  })();
-
-
-  </script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-67490929-1', 'auto');
-  ga('send', 'pageview');
-  </script>
-</body>
+    [.__.]////////@TINIRLOVE
+    -->
+    <div id="anchor"></div>
+    <script src="dist/bundle.min.js"></script>
+  </body>
 </html>

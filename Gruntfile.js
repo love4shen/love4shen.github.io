@@ -5,52 +5,34 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
-    // banner: '/*! <%= pkg.title || pkg.name %> - v<%= pkg.version %> - ' +
-    // '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-    // '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
-    // '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
-    // ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
+    banner: '',
     // Task configuration.
-    // sass: {
-    //   dist: {
-    //     options: {
-    //       style: 'compressed'
-    //     },
-    //     files: [{
-    //       src: ['src/stylesheets/*.scss'],
-    //       dest: 'dist/style.min.css'
-    //     }]
-    //   }
-    // },
-    concat: {
+    sass: {
       dist: {
-        src: ['src/scripts/*.js'],
-        dest: 'dist/main.js'
+        options: {
+          style: 'compressed'
+        },
+        files: [{
+          src: ['src/style/*.scss'],
+          dest: 'dist/style.min.css'
+        }]
       }
     },
-    uglify: {
-      dist: {
-        src: '<%= concat.dist.dest %>',
-        dest: 'dist/main.min.js'
-      }
-    }
-    // ,
-    // watch: {
-    //   gruntfile: {
-    //     files: '<%= jshint.gruntfile.src %>',
-    //     tasks: ['jshint:gruntfile']
-    //   }
-    // }
+    watch: {
+      files: ['**/*'],
+      tasks: ['sass']
+    },
   });
 
   // These plugins provide necessary tasks.
-  // grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  // grunt.loadNpmTasks('grunt-contrib-concat');
+  // grunt.loadNpmTasks('grunt-contrib-uglify');
   // grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
   // grunt.registerTask('default', ['sass', 'concat', 'uglify']);
-  grunt.registerTask('default', ['concat', 'uglify']);
+  grunt.registerTask('default', ['sass']);
 
 };
