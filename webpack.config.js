@@ -1,19 +1,19 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
 module.exports = {
-  entry: './src/jsx/main.jsx',
+  cache: true,
+  entry: './index',
   output: {
-    path: './dist',
-    filename: 'bundle.min.js'
+    filename: 'bundle.js'
   },
+  devtool: 'source-map',
   module: {
     loaders: [
       {
-        test: /\.jsx$/,
-        exclude: /node_modules/,
+        test: /\.(js|jsx)$/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2015'],
-        },
+          presets: ['es2015', 'stage-0', 'react']
+        }
       },
       {
         test: /\.css$/,
@@ -29,5 +29,5 @@ module.exports = {
       }
     }),
   ],
-  devtool: "source-map"
+  devtool: "source-map",
 };

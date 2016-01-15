@@ -15,7 +15,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #fff;
 }
 
 .home {
@@ -65,7 +65,7 @@ a {
 
 .header,
 .love {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
 }
 
 .header__name {
@@ -85,7 +85,7 @@ a {
 }
 
 .love__code {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #fff;
 }
 
 .animes__header,
@@ -102,6 +102,11 @@ a {
 
 .proj__logs {
   list-style-type: circle;
+}
+
+.proj__header,
+.anime__header {
+  font-weight: 400;
 }
 
 .footer {
