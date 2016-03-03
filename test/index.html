@@ -77,9 +77,9 @@ a {
   <script>
 if ('serviceWorker' in navigator) {
   console.log('service worker registration in progress');
-  navigator.serviceWorker.register('/service-worker.js').then(function() {
+  navigator.serviceWorker.register('/service-worker.js', { scope: './' }).then(function() {
     console.log('CLIENT: service worker registration complete.');
-  }, function() {
+  }).catch(function() {
     console.log('CLIENT: service worker registration failure.');
   });
 } else {

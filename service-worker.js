@@ -1,6 +1,8 @@
 'use strict';
 
-const version = 'v1::';
+var version = 'v1::';
+
+console.log('starting...');
 
 self.addEventListener('install', function(event) {
   console.log('WORKER: install event in progress.');
@@ -9,8 +11,9 @@ self.addEventListener('install', function(event) {
       .open(version + 'fundamentals')
       .then(function(cache) {
         return cache.addAll([
-          '/',
-          '/test/index.html'
+          './',
+          './test/index.html',
+          'https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400'
         ]);
       })
       .then(function() {
