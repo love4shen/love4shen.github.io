@@ -12,8 +12,6 @@ self.addEventListener('install', function(event) {
       .then(function(cache) {
         return cache.addAll([
           './',
-          './test/index.html',
-          'https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400'
         ]);
       })
       .then(function() {
