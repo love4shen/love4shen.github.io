@@ -1,4 +1,3 @@
-# Shen
+# Shen's
 
-## TODO
-* use sw.js library
+## tl;dr ♥
