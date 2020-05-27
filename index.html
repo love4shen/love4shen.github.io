@@ -1,94 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>YIZHENG C2 SHEN</title>
+  <title>Missing Trailing Comma</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="description" content="Yizheng Shen: tl;dr ♥">
   <style>
-  html {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: row wrap;
-    height: 100%;
-  }
+    html {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: row wrap;
+      height: 100%;
+    }
 
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
 
-  body {
-    margin: 4rem 1rem;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: 300;
-    max-width: 30rem;
-    font-size: 16px;
-    color: #333;
-    background-color: #fff;
-    letter-spacing: 0.5px;
-
-    flex: 1 100%;
-    position: relative;
-    top: -6rem;
-  }
-
-  @media screen and (min-width: 32rem) {
     body {
-      top: -2rem;
+      margin: 4rem 1rem;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-weight: 300;
+      max-width: 30rem;
+      font-size: 16px;
+      color: #333;
+      background-color: #fff;
+      letter-spacing: 0.5px;
+
+      flex: 1 100%;
+      position: relative;
+      top: -6rem;
     }
-  }
 
-  a {
-    color: inherit;
-  }
+    @media screen and (min-width: 32rem) {
+      body {
+        top: -2rem;
+      }
+    }
 
-  .header {
-    font-size: 1.25rem;
-  }
+    a {
+      color: inherit;
+    }
 
-  .header__name,
-  .header__tldr {
-    font-weight: 400;
-  }
-
-  .header__name {
-    font-size: 2em;
-    margin: 1rem 0;
-  }
-
-  .header__tldr {
-    font-size: 1.2em;
-    margin: 1rem 0;
-  }
-
-  .main__paragraph {
-    font-size: 1rem;
-    font-weight: 300;
-    font-size: 1 rem;
-    -webkit-font-smoothing:antialiased;
-    color: #333;
-
-    margin: 1rem 0;
-    max-width: 835px;
-    
-    line-height: 1.75;
-    word-spacing: -1px;
-  }
-
-  @media screen and (min-width: 32rem) {
     .header {
-      font-size: 1.6rem;
+      font-size: 1.25rem;
     }
+
+    .header__name,
+    .header__tldr {
+      font-weight: 400;
+    }
+
+    .header__name {
+      font-size: 2em;
+      margin: 1rem 0;
+    }
+
+    .header__tldr {
+      font-size: 1.2em;
+      margin: 1rem 0;
+    }
+
     .main__paragraph {
-      font-size: 1.2rem;
+      font-size: 1rem;
+      font-weight: 300;
+      font-size: 1 rem;
+      -webkit-font-smoothing: antialiased;
+      color: #333;
+
+      margin: 1rem 0;
+      max-width: 835px;
+
+      line-height: 1.75;
+      word-spacing: -1px;
     }
-  }
+
+    @media screen and (min-width: 32rem) {
+      .header {
+        font-size: 1.6rem;
+      }
+
+      .main__paragraph {
+        font-size: 1.2rem;
+      }
+    }
   </style>
 </head>
+
 <body>
   <div>
     <header class="header">
@@ -98,18 +103,21 @@
     <main class="main">
       <p class="main__paragraph">minimalist, UofT and UMN alumni, bug contributor</p>
       <p class="main__paragraph">watch animes, read novels, waste time</p>
-      <p class="main__paragraph"><a href="https://twitter.com/love4shen" target="_blank">twitter</a></p>
+      <p class="main__paragraph">
+        <a href="https://twitter.com/trailing_comma" target="_blank">twitter</a>
+      </p>
     </main>
   </div>
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-67490929-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-67490929-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
+
 </html>
